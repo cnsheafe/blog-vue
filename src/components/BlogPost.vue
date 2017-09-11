@@ -9,6 +9,7 @@
 
 <script>
 export default {
+    name: "BlogPost",
     data() {
         return {
             title: "Blogpost Title",

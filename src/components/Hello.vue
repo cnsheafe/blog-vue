@@ -3,10 +3,12 @@
 </template>
 
 <script>
+import BlogList from "./BlogList";
 export default {
+  name: "Hello",
   components: {
-    "BlogList": require("./BlogList")
-  }
+    "BlogList": BlogList
+  },
 }
 </script>
 
